@@ -1,0 +1,39 @@
+{
+  "name": "brp-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/w00tmast3r/brp-template.git"
+  },
+  "keywords": [
+    "minecraft",
+    "resourcepack",
+    "texturepack",
+    "build",
+    "brp",
+    "template"
+  ],
+  "author": "Bryan Terce <bryan.terce@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/w00tmast3r/brp-template/issues"
+  },
+  "homepage": "https://github.com/w00tmast3r/brp-template#readme",
+  "dependencies": {
+    "merge": "^1.2.0",
+    "minimatch": "^3.0.0",
+    "readable-stream": "^2.0.5",
+    "string-template": "^0.2.1"
+  },
+  "devDependencies": {
+    "standard": "^5.4.1"
+  },
+  "peerDependencies": {
+    "brp": "*"
+  }
+}
